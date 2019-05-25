@@ -1,0 +1,395 @@
+{
+	"Water": {
+		"Lv1": {
+			"Attack": [{
+				"name": "Water Bomb",
+				"cost": 20,
+				"damage": 150,
+				"additionRate": 10,
+				"discription": "According to an ancient Chinese proverb, constant dripping wears away a stone. Moreover, this is a little energetic water bomb."
+			}],
+			"Healing": [{
+				"name": "Life Fountain",
+				"cost": 30,
+				"heal": 200,
+				"additionRate": 5,
+				"discription": "70% of human's body is made by water. So it is not strange that water has healing power."
+			}],
+			"Buff": [],
+			"Debuff": []
+		},
+		"Lv2": {
+			"Attack": [{
+				"name": "Surge",
+				"cost": 50,
+				"damage": 250,
+				"additionRate": 25,
+				"discription": "This wave comes from Bermuda triangle region. Never belittle it!"
+			}],
+			"Healing": [],
+			"Buff": [{
+				"name": "Peaceful Water",
+				"cost": 50,
+				"buff": 1.5,
+				"round": 3,
+				"buffType": "Dodge Point",
+				"additionRate": 0,
+				"discription": "There is not even a small ripple in your heart now, which makes you could predict your enemy's action."
+			}],
+			"Debuff": []
+		},
+		"Lv3": {
+			"Attack": [{
+				"name": "Poseidon's Trident",
+				"cost": 80,
+				"damage": 500,
+				"additionRate": 50,
+				"discription": "Sometimes it may be used to tickle and BBQ by Poseidon. Well, who knows?"
+			}],
+			"Healing": [],
+			"Buff": [],
+			"Debuff": [{
+				"name": "Everglades",
+				"cost": 70,
+				"debuff": 0.5,
+				"round": 3,
+				"debuffType": "Hit Point",
+				"additionRate": 0,
+				"discription": "There is not even a small ripple in your heart now."
+			}]
+		}
+	},
+	"Fire": {
+		"Lv1": {
+			"Attack": [{
+				"name": "Chinese Fire Ball",
+				"cost": 30,
+				"damage": 150,
+				"additionRate": 10,
+				"discription": "A small fire ball spitted from a Chinese Fireball, a kind of gentle red dragon in the world of Harry Potter."
+			}],
+			"Healing": [],
+			"Buff": [{
+				"name": "Fury",
+				"cost": 40,
+				"buff": 1.1,
+				"round": 2,
+				"buffType": "Attack",
+				"additionRate": 0.001,
+				"discription": "Your anger is about to blow your skull off!"
+			}],
+			"Debuff": []
+		},
+		"Lv2": {
+			"Attack": [{
+				"name": "Flame of Soul",
+				"cost": 60,
+				"damage": 200,
+				"additionRate": 20,
+				"discription": "There are two kinds of invisiable fire: the fire of soul and that of desire."
+			}],
+			"Healing": [],
+			"Buff": [],
+			"Debuff": [{
+				"name": "Samadhi Fire",
+				"cost": 60,
+				"debuff": 0.3,
+				"round": 2,
+				"debuffType": "Defense",
+				"additionRate": 0.001,
+				"discription": "Even Monkey King could not bear this immortal fire."
+			}]
+		},
+		"Lv3": {
+			"Attack": [{
+				"name": "Hephaestus's Hammer",
+				"cost": 100,
+				"damage": 550,
+				"additionRate": 40,
+				"discription": "Hephaestus always thinks he is a better hammer user than Thor."
+			}],
+			"Healing": [],
+			"Buff": [{
+				"name": "Big Bang",
+				"cost": 60,
+				"buff": 100,
+				"round": 2,
+				"buffType": "Critical Chance",
+				"additionRate": 0,
+				"discription": "I swear the next attack will be the highlight of your life"
+			}],
+			"Debuff": []
+		}
+	},
+	"Wood": {
+		"Lv1": {
+			"Attack": [{
+				"name": "Leaf Bullet",
+				"cost": 20,
+				"damage": 150,
+				"additionRate": 15,
+				"discription": "A mysterious skill spread from Chinese Tang clan."
+			}],
+			"Healing": [{
+				"name": "Fertilization",
+				"cost": 20,
+				"heal": 150,
+				"additionRate": 15,
+				"discription": "No matter how strong you are, you will need enough nutrition!"
+			}],
+			"Buff": [],
+			"Debuff": []
+		},
+		"Lv2": {
+			"Attack": [{
+				"name": "Cane King Lash",
+				"cost": 60,
+				"damage": 200,
+				"additionRate": 20,
+				"discription": "Its ex-owner is famous in the world of Harry Potter."
+			}],
+			"Healing": [],
+			"Buff": [{
+				"name": "Photosynthesis",
+				"cost": 50,
+				"buff": 100,
+				"round": 3,
+				"buffType": "Growing",
+				"additionRate": 5,
+				"discription": "You do not need discription for this spell as long as you have learned biology."
+			}],
+			"Debuff": []
+		},
+		"Lv3": {
+			"Attack": [],
+			"Healing": [{
+				"name": "Crius's Tear",
+				"cost": 100,
+				"heal": 500,
+				"additionRate": 30,
+				"discription": "She always cries because people always ignore her status in Titans, just like children worried about how to get more attention."
+			}],
+			"Buff": [{
+				"name": "Myriad Essence",
+				"cost": 100,
+				"buff": 150,
+				"round": 5,
+				"buffType": "Growing",
+				"additionRate": 15,
+				"discription": "You must be a hero of an epic so that you could get so many energy."
+			}],
+			"Debuff": []
+		}
+	},
+	"Earth": {
+		"Lv1": {
+			"Attack": [{
+				"name": "Arrows of earth",
+				"cost": 20,
+				"damage": 150,
+				"additionRate": 10,
+				"discription": "If you think these heavy arrows cannot move, they will let you know something."
+			}],
+			"Healing": [],
+			"Buff": [],
+			"Debuff": [{
+					"name": "Strong acid",
+					"cost": 30,
+					"debuff": 0.7,
+					"round": 2,
+					"debuffType": "Attack",
+					"additionRate": 0.001,
+					"discription": "It seems that you need some alkali."
+				}]
+		},
+		"Lv2": {
+			"Attack": [{
+				"name": "Meteorite rain",
+				"cost": 60,
+				"damage": 200,
+				"additionRate": 20,
+				"discription": "Stop, make a vow, it will come true.."
+			}],
+			"Healing": [],
+			"Buff": [{
+					"name": "Land Shield",
+					"cost": 60,
+					"buff": 1.5,
+					"round": 3,
+					"buffType": "Defense",
+					"additionRate": 0.001,
+					"discription": "Ailthough it is ugly, it works."
+				}],
+			"Debuff": []
+		},
+		"Lv3": {
+			"Attack": [],
+			"Healing": [],
+			"Buff": [{
+				"name": "Awareness of Gaea",
+				"cost": 100,
+				"buff": 2,
+				"round": 3,
+				"buffType": "Defense",
+				"additionRate": 0.001,
+				"discription": "Protect the Earth, protect Gaea, then Gaea protect you."
+			}],
+			"Debuff": [{
+					"name": "Phagocytosis",
+					"cost": 100,
+					"debuff": 0.3,
+					"round": 4,
+					"debuffType": "Attack",
+					"additionRate": 0.005,
+					"discription": "The description of this spell has been eated by this spell."
+				}]
+		}
+	},
+	"Holy": {
+		"Lv1": {
+			"Attack": [],
+			"Healing": [],
+			"Buff": [{
+					"name": "Holy-light",
+					"cost": 40,
+					"buff": 1.2,
+					"round": 2,
+					"buffType": "Defense",
+					"additionRate": 0.001,
+					"discription": "You are protected by your faith."
+				},
+				{
+					"name": "Eagle eye",
+					"cost": 40,
+					"buff": 1.5,
+					"round": 2,
+					"buffType": "Hit Point",
+					"additionRate": 0.001,
+					"discription": "Eagles are considered as emissaries of the God in some culture."
+				}
+			],
+			"Debuff": []
+		},
+		"Lv2": {
+			"Attack": [],
+			"Healing": [],
+			"Buff": [{
+				"name": "Angel wish",
+				"cost": 80,
+				"buff": 70,
+				"round": 3,
+				"buffType": "Defense",
+				"additionRate": 5,
+				"discription": "God bless you."
+			}, {
+				"name": "Somersault cloud",
+				"cost": 70,
+				"buff": 1.5,
+				"round": 2,
+				"buffType": "Dodge Point",
+				"additionRate": 0.001,
+				"discription": "108000 miles/somersault."
+			}],
+			"Debuff": []
+		},
+		"Lv3": {
+			"Attack": [],
+			"Healing": [],
+			"Buff": [{
+					"name": "Gabriel‘s horn",
+					"cost": 120,
+					"buff": 2,
+					"round": 3,
+					"buffType": "Attack",
+					"additionRate": 0.001,
+					"discription": "Armageddon!"
+				},
+				{
+					"name": "Apollo's asylum",
+					"cost": 100,
+					"buff": 0,
+					"round": 2,
+					"buffType": "Invincible",
+					"additionRate": 0,
+					"discription": "Nobody could hurt the sun!"
+				}
+			],
+			"Debuff": []
+		}
+	},
+	"Evil": {
+		"Lv1": {
+			"Attack": [],
+			"Healing": [],
+			"Buff": [],
+			"Debuff": [{
+					"name": "Death Gaze",
+					"cost": 50,
+					"debuff": 0.5,
+					"round": 2,
+					"debuffType": "Defense",
+					"additionRate": 0.001,
+					"discription": "\"Big brother is watching you.\"  -- 1984"
+				},
+				{
+					"name": "Stupify",
+					"cost": 50,
+					"debuff": 0.5,
+					"round": 2,
+					"debuffType": "Dodge Point",
+					"additionRate": 0.001,
+					"discription": "For somebody, stopping thinking equals to posing them into the hell."
+				}
+
+			]
+		},
+		"Lv2": {
+			"Attack": [],
+			"Healing": [],
+			"Buff": [],
+			"Debuff": [{
+					"name": "Summon darkness",
+					"cost": 70,
+					"debuff": 0.3,
+					"round": 2,
+					"debuffType": "Hit point",
+					"additionRate": 0.001,
+					"discription": "\"Why are you keeping hitting the air?"
+				},
+				{
+					"name": "Whisper of Succubi",
+					"cost": 70,
+					"debuff": 0.5,
+					"round": 2,
+					"debuffType": "Attack",
+					"additionRate": 0.001,
+					"discription": "Even heroes fall for beauties."
+				}
+			]
+		},
+		"Lv3": {
+			"Attack": [],
+			"Healing": [],
+			"Buff": [],
+			"Debuff": [{
+					"name": "\"3 idiots\"",
+					"cost": 60,
+					"debuff": 0,
+					"round": 2,
+					"debuffType": "Silence",
+					"additionRate": 0,
+					"discription": "Your enemy can't stop laughing after watching this movie."
+				},
+				{
+					"name": "Plague from Hardes",
+					"cost": 100,
+					"debuff": 100,
+					"round": 3,
+					"debuffType": "Burning",
+					"additionRate": 10,
+					"discription": "It could not be stopped unless you give two girls to Hardes."
+				}
+			]
+		}
+	}
+}

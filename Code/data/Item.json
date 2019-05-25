@@ -1,0 +1,49 @@
+{
+	"Medicine":{
+		"Lv1":[
+			{"name":"Health Stone", "healthPoint": 100,"magicPoint": 0,"discription":"This stone could extend your life."},
+			{"name":"Magic Stone", "healthPoint": 0,"magicPoint": 10,"discription":"This stone could let you spout more spells."}
+		],
+		"Lv2":[
+			{"name":"Health Bottle", "healthPoint": 200,"magicPoint": 0,"discription":"This bottle could extend your life more."},
+			{"name":"Magic Bottle", "healthPoint": 0,"magicPoint": 20,"discription":"This bottle could let you spout more and more spells."}
+		],
+		"Lv3":[
+			{"name":"Health Suit", "healthPoint": 400,"magicPoint": 0,"discription":"You would hardly die with this suit."},
+			{"name":"Magic Suit", "healthPoint": 0,"magicPoint": 50,"discription":"Spout any spells as you want."}
+		]
+	},
+	"Weapon":{
+		"Lv1":[
+			{"name":"Wooden Sword", "attackPoint": 30, "criticalPoint": 20, "discription": "This is a wooden sword for rookies."}
+		],
+		"Lv2":[
+			{"name":"Iron Sword", "attackPoint": 60, "criticalPoint": 30, "discription": "This is a iron sword for challengers."}
+		],
+		"Lv3":[
+			{"name":"Excalibur", "attackPoint": 100, "criticalPoint": 50, "discription": "This sword is lengendary."}
+		]
+	},
+	"Armour":{
+		"Lv1":[
+			{"name":"Rusty Armour", "defencePoint": 20, "discription": "This armour seems ancient."}
+		],
+		"Lv2":[
+			{"name":"Ablaze Armour", "defencePoint": 30, "discription": "This armour could also used as a mirror."}
+		],
+		"Lv3":[
+			{"name":"Golden Armour", "defencePoint": 50, "discription": "Your enemy will be blinded because of this dazzing golden light."}
+		]
+	},
+	"Shoe":{
+		"Lv1":[
+			{"name":"Cloud", "hitPoint": 10, "dodgePoint": 5, "discription":"Relax."}
+		],
+		"Lv2":[
+			{"name":"Breeze", "hitPoint": 20, "dodgePoint": 10, "discription":"Blow."}
+		],
+		"Lv3":[
+			{"name":"Lightning", "hitPoint": 30, "dodgePoint": 15, "discription":"Flash."}
+		]
+	}
+}

@@ -1,0 +1,12 @@
+[
+	{
+		"lv1":{"name": "Goblin", "attack" : 60, "defence": 40, "maxHealth" : 150, "maxMagic" : 70, "criticalChance": 40, "hitPoint": 70, "dodgePoint":30, "element": "Fire"},
+		"lv2":{"name": "Goblin Leader", "attack" : 70, "defence": 50, "maxHealth" : 200, "maxMagic" : 150, "criticalChance": 40, "hitPoint": 70, "dodgePoint":30, "element": "Fire"},
+		"lv3":{"name": "Goblin King", "attack" : 80, "defence": 60, "maxHealth" : 250, "maxMagic" : 200, "criticalChance": 40, "hitPoint": 70, "dodgePoint":30, "element": "Fire"}
+	},
+	{
+		"lv1":{"name": "Zombie", "attack" : 40, "defence": 60, "maxHealth" : 100, "maxMagic" : 150, "criticalChance": 10, "hitPoint": 50, "dodgePoint":50, "element": "Earth"},
+		"lv2":{"name": "Zombie Leader", "attack" : 50, "defence": 70, "maxHealth" : 150, "maxMagic" : 200, "criticalChance": 10, "hitPoint": 50, "dodgePoint":50, "element": "Earth"},
+		"lv3":{"name": "Zombie King", "attack" : 60, "defence": 80, "maxHealth" : 200, "maxMagic" : 250, "criticalChance": 10, "hitPoint": 50, "dodgePoint":50, "element": "Earth"}
+	}
+]
